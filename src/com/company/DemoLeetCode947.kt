@@ -1,10 +1,8 @@
 package com.company
 
-import java.util.*
 import kotlin.collections.ArrayList
-import kotlin.math.min
 
-object LeetCode947 {
+object DemoLeetCode947 {
     @JvmStatic
     fun main(args: Array<String>) {
        println(
@@ -85,7 +83,5 @@ object LeetCode947 {
         return newJoinArray.stream().distinct().count()
 
     }
-
-
 
 }
