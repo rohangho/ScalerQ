@@ -16,15 +16,6 @@ object DemoPosNegPositionKeep {
         var pointer2 = 0
         while(pointer2<arrayOfInt.size-1) {
             while (pointer2 <= arrayOfInt.size - 1) {
-//                if (arrayOfInt[pointer2] < 0 && pointer1 == pointer2) {
-//                    pointer1 += 1
-//                    pointer2 += 1
-//                } else if (arrayOfInt[pointer2] < 0 && pointer1 != pointer2) {
-//                    break
-//                } else {
-//                    pointer2 += 1
-//                }
-
                 if(arrayOfInt[pointer2]<0 )
                     if(pointer1 == pointer2)
                     {
@@ -53,7 +44,6 @@ object DemoPosNegPositionKeep {
             }
 
         }
-
             return  arrayOfInt
 
     }
