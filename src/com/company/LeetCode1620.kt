@@ -11,10 +11,10 @@ object LeetCode1620 {
 
     @JvmStatic
     fun main(args: Array<String>) {
-        //println( bestCoordinate(arrayOf( intArrayOf(1,2,5),intArrayOf(2,1,7),intArrayOf(3,1,9)),2))
+        println( bestCoordinate(arrayOf( intArrayOf(0,1,2),intArrayOf(2,1,2),intArrayOf(1,0,2),intArrayOf(1,2,2)),1))
        // println( bestCoordinate(arrayOf( intArrayOf(1,2,13),intArrayOf(2,1,7),intArrayOf(0,1,9)),2))
        // println( bestCoordinate(arrayOf( intArrayOf(2,1,9),intArrayOf(0,1,9)),2))
-        println( bestCoordinate(arrayOf( intArrayOf(42,0,0)),7))
+      //  println( bestCoordinate(arrayOf( intArrayOf(42,0,0)),7))
     }
 
     fun bestCoordinate(towers: Array<IntArray>, radius: Int): IntArray {
