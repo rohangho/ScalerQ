@@ -1,10 +1,10 @@
-package com.company
+package com.company.leetcode
 
 object LeetCode951 {
 
     @JvmStatic
     fun main(args: Array<String>) {
-       println(flipEquiv(TreeNode1(1),TreeNode1(null)))
+       println(flipEquiv(TreeNode1(1), TreeNode1(null)))
     }
 
     private fun flipEquiv(root1: TreeNode1?, root2: TreeNode1?): Boolean {

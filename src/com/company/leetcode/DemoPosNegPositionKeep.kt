@@ -1,4 +1,4 @@
-package com.company
+package com.company.leetcode
 
 /**
  *Move all the negative to front and positive to back in an array without usinf any other data structure and maintaining the order of the array

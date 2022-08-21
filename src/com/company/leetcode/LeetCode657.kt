@@ -1,6 +1,4 @@
-package com.company
-
-import java.util.Stack
+package com.company.leetcode
 
 object LeetCode657 {
     @JvmStatic

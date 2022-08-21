@@ -1,4 +1,4 @@
-package com.company
+package com.company.leetcode
 
 object DemoLeetcode684 {
 
@@ -10,7 +10,8 @@ object DemoLeetcode684 {
                 intArrayOf(2,4),
                 intArrayOf(3,5),
                 intArrayOf(2,5)
-            )))
+            ))
+        )
     }
 
 

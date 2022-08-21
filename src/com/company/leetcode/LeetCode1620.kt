@@ -1,4 +1,4 @@
-package com.company
+package com.company.leetcode
 
 import kotlin.math.floor
 import kotlin.math.sqrt

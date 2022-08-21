@@ -1,4 +1,4 @@
-package com.company
+package com.company.leetcode
 
 import kotlin.collections.ArrayList
 
@@ -15,7 +15,8 @@ object DemoLeetCode947 {
                intArrayOf(0,3),
                intArrayOf(2,4),
                intArrayOf(3,5),
-           )))
+           ))
+       )
     }
 
 
