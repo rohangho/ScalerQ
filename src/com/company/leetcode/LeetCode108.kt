@@ -1,13 +1,15 @@
 package com.company.leetcode
 
-class TreeNode(var a: Int) {
-         var left: TreeNode? = null
-        var right: TreeNode? = null
-     }
+
 
 
 
 object LeetCode108 {
+
+    class TreeNode(var a: Int) {
+        var left: TreeNode? = null
+        var right: TreeNode? = null
+    }
 
     @JvmStatic
     fun main(args: Array<String>) {
