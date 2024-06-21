@@ -26,6 +26,7 @@ object LeetCode105 {
         val index = search(treeNode.`val`,inorder)
         treeNode.left = solveTree(preorder,inorder,start,index-1)
         treeNode.right = solveTree(preorder,inorder,index+1,end)
+        return null
     }
 
     private fun search(i: Int, inorder: IntArray): Int {
