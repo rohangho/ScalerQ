@@ -34,5 +34,5 @@ object Leetcode1769 {
         }
         return array.toIntArray()
     }
-
+    
 }
