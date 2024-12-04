@@ -8,7 +8,7 @@ object Leetcode1625 {
     @JvmStatic
     fun main(args:Array<String>)
     {
-       println(findLexSmallestString("5525",9,2))
+       println(findLexSmallestString("0011",9,2))
     }
 
     fun add(s:String,a:Int):String
@@ -42,7 +42,7 @@ object Leetcode1625 {
     {
         if(set.contains(s)) return
         set.add(s)
-        answer = min(answer.toInt(),s.toInt()).toString()
+        answer = compare(s, answer)
         ifVisited(a,b, add(s,a),set)
         ifVisited(a,b, rotate(s,b),set)
     }
@@ -52,6 +52,17 @@ object Leetcode1625 {
         val set:MutableSet<String> = mutableSetOf()
         ifVisited(a,b,s,set)
         return answer
+    }
+
+
+    fun compare(a:String,b:String):String {
+        val result = a.compareTo(b)
+
+       return when {
+            result < 0 -> a
+            result > 0 -> b
+            else -> b
+        }
     }
 
 
