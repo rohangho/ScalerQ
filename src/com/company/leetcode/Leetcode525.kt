@@ -6,7 +6,7 @@ object Leetcode525 {
 
     @JvmStatic
     fun main(args: Array<String>) {
-        print(findMaxLength(intArrayOf(0, 0, 0, 1, 1, 1, 0)))
+        print(findMaxLength(intArrayOf(0,0, 0, 0, 1, 1, 1, 0,1)))
     }
 
     fun findMaxLength(nums: IntArray): Int {
